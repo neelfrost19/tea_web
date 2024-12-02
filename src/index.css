@@ -1,13 +1,28 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background-color: #f7f6ef;
+  line-height: 1.6;
+  background-image: url('../public/images/leaf1.svg'), url('../public/images/leaf2.svg'); /* Specify images */
+  background-position: 50px 0, 0 600px; /* Position images manually */
+  background-size: auto, auto; /* Adjust the size of the images if needed */
+  background-repeat: no-repeat; /* Prevent the images from repeating */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

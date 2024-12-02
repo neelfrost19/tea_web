@@ -1,0 +1,42 @@
+.hero {
+    width:90%;
+    height:800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color: transparent;
+    gap:100px;
+}
+
+.hero-text {
+    max-width: 40%;
+}
+
+.hero-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    line-height: 78px;
+    color: #333;
+    font-weight: 600;
+}
+
+.hero-text span {
+    color: #5d7a26;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 78px;
+}
+
+.hero-text p {
+    margin: 1rem 0;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}

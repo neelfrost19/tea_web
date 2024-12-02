@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/MatchaPage.css";
+import "../styles/MatchaPage.css";
 
 const DashboardTable = () => {
     return (
