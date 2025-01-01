@@ -1,15 +1,29 @@
-.hero {
-    width:90%;
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
     height:800px;
+    flex-direction: column;
+}
+
+.hero-container {
+    width:92%;
+    height:90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3rem 2rem;
-    background-color: transparent;
+    background-color: #DDE2D6;
+    border-radius: 15px;
     gap:100px;
+    background-image: url('../../public/images/leaf1.svg'), url('../../public/images/leaf2.svg');
+    background-position: 240px 0, 600px 630px;
+    background-size: 24%, 24%;
+    background-repeat: no-repeat;
 }
 
 .hero-text {
+    padding-left: 60px;
     max-width: 40%;
 }
 
@@ -37,6 +51,6 @@
 }
 
 .hero-image img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }

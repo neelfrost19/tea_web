@@ -4,10 +4,6 @@ body {
   color: #333;
   background-color: #f7f6ef;
   line-height: 1.6;
-  background-image: url('../public/images/leaf1.svg'), url('../public/images/leaf2.svg'); /* Specify images */
-  background-position: 50px 0, 0 600px; /* Position images manually */
-  background-size: auto, auto; /* Adjust the size of the images if needed */
-  background-repeat: no-repeat; /* Prevent the images from repeating */
 }
 
 
