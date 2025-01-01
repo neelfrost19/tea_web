@@ -16,8 +16,11 @@ const Categories = () => (
             {categories.map((cat) => (
                 <div className="category-item" key={cat.title}>
                     <img src={cat.image} alt={cat.title} />
-                    <h3>{cat.title}</h3>
-                    <p>{cat.description}</p>
+                    <div className="category-item-text">
+                        <h3>{cat.title}</h3>
+                        <p>{cat.description}</p>
+                    </div>
+
                 </div>
             ))}
         </div>

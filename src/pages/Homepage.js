@@ -23,7 +23,7 @@ const Homepage = () => {
             <Categories />
             <Features />
             <AboutUs />
-            <Footer />
+            {/*<Footer />*/}
         </div>
     );
 };

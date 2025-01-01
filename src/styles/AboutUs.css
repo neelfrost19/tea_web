@@ -1,8 +1,9 @@
 .about-us {
+    margin-top: 140px;
     display: flex;
     gap: 2rem;
     padding: 3rem 2rem;
-    background-color: #fff;
+    background-color: #DDE2D6;
 }
 
 .about-us img {

@@ -1,49 +1,94 @@
 .features {
     background-color: #f7f6ef;
-    padding: 3rem 2rem;
-    width:100%
+    width:100%;
+    margin-top: 140px;
+
+    h2 {
+        text-align: center;
+        font-size: 48px;
+        line-height: 72px;
+        color: #000000;
+        margin-bottom: 2rem;
+
+        span{
+            color :#6B6B37;
+        }
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 28px;
+        line-height:48px;
+        color: #000000;
+        margin-bottom: 4rem;
+        font-weight: 400;
+    }
 }
 
-.features h2 {
-    text-align: center;
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 2rem;
-}
+
 
 .feature-list {
     display: flex;
     flex-direction: column;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 80px;
 }
 
 .feature-item {
+    height: 152px;
+    width: 1133px;
     display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    padding: 1.5rem;
-    background-color: #fff;
-    border-radius: 8px;
+    align-items: center;
+    gap: 48px;
+    background-color: #DDE2D6;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 198px;
-    width:60%;
-    grid-template-columns: 1fr 1fr;
+
+    span {
+        width: 100px;
+        height: 100px;
+        background-color: #6B6B37;
+        border-radius: 50%;
+
+        p{
+            text-align: center;
+            color: #fff;
+            font-size: 48px;
+            line-height: 0;
+            font-weight: 600;
+        }
+    }
+
+    div{
+        width: 852px;
+
+        h4 {
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 600;
+            color: #6B6B37;
+            margin-bottom: 0;
+        }
+
+        p{
+            color: #000000;
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+    }
 }
 
-.feature-item:nth-child(odd) {
-    grid-column: 1;
+ .odd {
+     padding-right: 20px;
+     padding-left: 0;
+     flex-direction: row-reverse;
+     border-radius: 0 84px 84px 0;
 }
 
-.feature-item:nth-child(even) {
-    grid-column: 2;
-}
-
-.feature-item span {
-    background-color: #5d7a26;
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 0.5rem;
-    border-radius: 50%;
+.even {
+    padding-left: 20px;
+    padding-right: 0;
+    flex-direction: row;
+    border-radius: 84px 0 0 84px;
+    align-self: flex-end;
 }
