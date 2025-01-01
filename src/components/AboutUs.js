@@ -5,9 +5,7 @@ const AboutUs = () => {
     return (
         <section className="about-us">
             <div className="about-us-images">
-                <img src="tea1.jpg" alt="Tea cup" />
-                <img src="tea2.jpg" alt="Tea field" />
-                <img src="tea3.jpg" alt="Tea leaves" />
+                <img src="/images/tea_collage.svg" alt="Tea cup" />
             </div>
             <div className="about-us-text">
                 <h2>About Us</h2>
