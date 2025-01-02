@@ -6,10 +6,8 @@ const Navbar = () => (
         <div className="logo">ARGOCO</div>
         <div className="nav-links">
             <div>Home</div>
-            <div>Categories</div>
-            <div>Blogs</div>
+            <div>Products</div>
             <div>About Us</div>
-            <div>Resources</div>
         </div>
         <input className="search-bar" type="text" placeholder="Search" />
     </nav>

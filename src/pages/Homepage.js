@@ -9,12 +9,12 @@ import Footer from "../components/Footer";
 import "../index.css";
 
 const Homepage = () => {
-    const navigate = useNavigate();
-
-    const handleLogout = () => {
-        sessionStorage.removeItem('token');
-        navigate('/');
-    };
+    // const navigate = useNavigate();
+    //
+    // const handleLogout = () => {
+    //     sessionStorage.removeItem('token');
+    //     navigate('/');
+    // };
 
     return (
         <div className="app">

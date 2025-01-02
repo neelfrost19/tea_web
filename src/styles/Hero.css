@@ -8,23 +8,30 @@
 
 .hero-container {
     width:92%;
-    height:90%;
+    height:700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3rem 2rem;
-    background-color: #DDE2D6;
     border-radius: 15px;
-    gap:100px;
+    gap:10px;
     background-image: url('../../public/images/leaf1.svg'), url('../../public/images/leaf2.svg');
     background-position: 240px 0, 600px 630px;
     background-size: 24%, 24%;
     background-repeat: no-repeat;
 }
 
+.green {
+    background-color: #DDE2D6;
+}
+
+.orange {
+    background-color: #F1E7D8;
+}
+
 .hero-text {
     padding-left: 60px;
-    max-width: 40%;
+    max-width: 45%;
 }
 
 .hero-text h1 {
@@ -36,10 +43,21 @@
 }
 
 .hero-text span {
-    color: #5d7a26;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 78px;
+}
+
+.text-orange {
+    color: #F9B24F;
+}
+
+.text-green {
+    color: #6B6B37;
+}
+
+.text-grass{
+    color: #3E9E02;
 }
 
 .hero-text p {
@@ -51,6 +69,6 @@
 }
 
 .hero-image img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
 }
