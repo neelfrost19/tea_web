@@ -1,0 +1,32 @@
+.title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-container{
+    border-radius: 8px;
+    height: 300px;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../public/images/title_background.png');
+    background-repeat: no-repeat;
+    background-position: 0 -75px;
+    background-size: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: -1;
+
+    h1{
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 96px;
+        text-align: center;
+        color: #FFFFFF;
+        z-index: 1;
+    }
+}

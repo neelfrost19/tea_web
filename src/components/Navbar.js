@@ -5,9 +5,16 @@ const Navbar = () => (
     <nav className="navbar">
         <div className="logo">ARGOCO</div>
         <div className="nav-links">
-            <div>Home</div>
-            <div>Products</div>
-            <div>About Us</div>
+            <div>
+                <a href="/">Home</a>
+            </div>
+            <div>
+                <a href="/product">Products
+                </a>
+            </div>
+            <div>
+                <a href="/">About Us</a>
+            </div>
         </div>
         <input className="search-bar" type="text" placeholder="Search" />
     </nav>
