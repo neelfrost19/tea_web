@@ -9,11 +9,18 @@
     font-size:24px;
     font-family: 'Poppins', sans-serif;
     padding: 10px 20px;
-    background-color: #333;
     color: #fff;
     border: none;
     border-radius: 48px;
     cursor: pointer;
+}
+
+.black {
+    background-color: #333;
+}
+
+.green {
+    background: linear-gradient(to bottom, #15390A, #356A14);
 }
 
 .explore-btn img {

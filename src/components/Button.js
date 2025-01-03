@@ -2,10 +2,10 @@ import React, {useEffect, useState} from "react";
 import "../styles/Button.css"
 
 const Button = (props) => {
-    const {text} = props;
+    const {text, color} = props;
 
     return (
-        <button className="explore-btn">
+        <button className={`explore-btn ${color}`}>
             <div>
                 {`${text}`}
             </div>

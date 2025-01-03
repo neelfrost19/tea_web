@@ -15,7 +15,7 @@ const heroCards = [
                     Discover the art of brewing with our premium tea crafted to deliver
                     flavor, aroma, and serenity in every sip.
                 </p>
-                <Button text="Explore Products"/>
+                <Button text="Explore Products" color="black"/>
             </div>
             <div className="hero-image">
                 <img src="/images/tea.svg" alt="Tea cup with leaves"/>
@@ -32,7 +32,7 @@ const heroCards = [
                     Experience the power of premium turmeric—naturally rich in curcumin,
                     perfect for boosting wellness and enhancing your recipes.
                 </p>
-                <Button text="Explore Products"/>
+                <Button text="Explore Products" color="black"/>
             </div>
             <div className="hero-image">
                 <img  src="/images/tumeric.svg" alt="Tumeric"/>
@@ -50,7 +50,7 @@ const heroCards = [
                     flavor, aroma, and nutrition. Our rice is the perfect foundation
                     for your culinary creations.
                 </p>
-                <Button text="Explore Products"/>
+                <Button text="Explore Products" color="black"/>
             </div>
             <div className="hero-image">
                 <img src="/images/rice.svg" alt="rice"/>
