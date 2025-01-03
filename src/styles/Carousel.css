@@ -5,6 +5,21 @@
     justify-content: center;
     flex-direction: column;
     gap: 10px;
+    overflow-y: initial;
+    overflow-x: hidden;
+}
+.carousel-track{
+    display: flex;
+    transition: transform 1.5s ease; /* Smooth sliding animation */
+    width: 100%; /* Match parent container's width */
+}
+
+.carousel-slide {
+    max-width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -12,18 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.carousel-slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-/* Individual slide styling */
-.carousel-slide {
-    min-width: 100%;
-    box-sizing: border-box;
-    text-align: center;
+    width: 97%;
 }
 
 .carousel-button {
@@ -33,7 +37,8 @@
 }
 
 .carousel-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 50%;
 }
 
 .carousel-dots {

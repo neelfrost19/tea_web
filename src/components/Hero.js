@@ -40,7 +40,7 @@ const heroCards = [
         </div>
     ),
     (
-        <div className="hero-container green">
+        <div className="hero-container grass">
             <div className="hero-text">
                 <h1>
                     From Our Fields to Your Plate: <span className="text-grass">The Perfect Grain</span> Every Time.

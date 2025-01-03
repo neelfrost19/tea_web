@@ -3,9 +3,9 @@ import "../styles/Categories.css";
 
 const categories = [
     { title: "Lemon Tea", description: "Experience the refreshing and antioxidant-rich goodness of our premium lemon teas.", image: "/images/categ.svg" },
-    { title: "Herbal Tea", description: "Relax and rejuvenate with caffeine-free herbal blends crafted from soothing herbs and flowers.", image: "/images/categ.svg" },
-    { title: "Ginger Tea", description: "Indulge in delicate flavors with teas infused with Ginger.", image: "/images/categ.svg" },
-    { title: "Black Tea", description: "Bold and full-bodied, our black teas are perfect for a robust start to your day.", image: "/images/categ.svg" },
+    { title: "Herbal Tea", description: "Relax and rejuvenate with caffeine-free herbal blends crafted from soothing herbs and flowers.", image: "/images/herbal.svg" },
+    { title: "Ginger Tea", description: "Indulge in delicate flavors with teas infused with Ginger.", image: "/images/ginger.svg" },
+    { title: "Black Tea", description: "Bold and full-bodied, our black teas are perfect for a robust start to your day.", image: "/images/black.svg" },
 ];
 
 const Categories = () => (

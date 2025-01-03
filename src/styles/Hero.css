@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    height:800px;
+    max-height:860px;
     flex-direction: column;
 }
 
@@ -27,6 +27,10 @@
 
 .orange {
     background-color: #F1E7D8;
+}
+
+.grass {
+    background-color: #EEEEDA;
 }
 
 .hero-text {
